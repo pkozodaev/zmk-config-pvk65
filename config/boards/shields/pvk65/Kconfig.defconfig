@@ -1,0 +1,6 @@
+if SHIELD_PVK65
+
+config  ZMK_KEYBOARD_NAME
+	default "pvk65"
+
+endif
