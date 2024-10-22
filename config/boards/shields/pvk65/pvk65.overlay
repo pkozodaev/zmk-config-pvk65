@@ -31,12 +31,12 @@
 
         row-gpios
             = 
-            <&gpio0 02 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
 
         col-gpios
             = 
-            <&gpio1 15 GPIO_ACTIVE_HIGH>
+            <&pro_micro 18 GPIO_ACTIVE_HIGH>
             ;
     };
 };
